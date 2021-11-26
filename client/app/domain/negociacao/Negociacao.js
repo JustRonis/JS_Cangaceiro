@@ -5,20 +5,25 @@ class Negociacao{
         this._valor = valor;
 
     }
-
-    obtemVolume(){
+    
+    
+    get data(){
+        return this._data;
+    }
+    
+    get quantidade(){
+        return this._quantidade;
+    }
+    
+    get valor(){
+        return this._valor;
+    }
+    
+    get volume(){
         return this._quantidade * this._valor;
     }
 };
 
 
-this.quantidade
 
-abs = this.quantida > 10 ? "sim" : "não"
 
-if(abs === "sim"){
-    let a 
-    async () => {
-        await fs.writeFile("teste.txt", `${a}`)
-    }
-}
